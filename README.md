@@ -18,15 +18,16 @@ bun add react-naver-analytics
 ```tsx
 import { NaverAnalytics } from 'react-naver-analytics';
 
-function RootLayout() {
+function RootLayout({ children }) {
   return (
       <html>
         <head/>
         <body>
+          {children}
+          {/* 반드시 </body> 바로 위에 추가해야 합니다. */}
           <NaverAnalytics
               accountId={'YOUR_ACCOUNT_ID'}
           />
-          <div id="root"/>
         </body>
       </html>
   );
