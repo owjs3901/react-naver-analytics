@@ -33,3 +33,14 @@ function RootLayout({ children }) {
   );
 }
 ```
+
+### 전환 추적 및 이벤트
+
+```ts
+import { addEvent, addCnv } from 'react-naver-analytics';
+
+// 이벤트 추가
+addEvent('category', 'name');
+// 전환 추가
+addCnv('1', '1000');
+```
