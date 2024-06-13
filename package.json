@@ -1,7 +1,8 @@
 {
   "name": "react-naver-analytics",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
+  "description": "Naver Analytics for React",
   "scripts": {
     "dev": "vite",
     "test": "vitest run --coverage --typecheck",
@@ -18,6 +19,7 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "types": "./dist/index.d.ts",
   "files": ["dist"],
   "peerDependencies": {
     "react": "*"
@@ -38,6 +40,20 @@
     "typescript": "^5.4.5",
     "vite": "^5.2.13",
     "vitest": "^1.6.0"
+  },
+  "keywords": [
+    "react",
+    "naver",
+    "analytics"
+  ],
+  "author": "JeongMin O <owjs3901@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owjs3901/react-naver-analytics.git"
+  },
+  "homepage": "https://github.com/owjs3901/react-naver-analytics#readme",
+  "bugs": {
+    "url": "https://github.com/owjs3901/react-naver-analytics/issues"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
