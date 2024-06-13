@@ -6,6 +6,7 @@
  * 5. 기타
  */
 type CnvType = "1" | "2" | "3" | "4" | "5";
+export function addCnv(type: Exclude<CnvType, "1">, value?: string): void;
 export function addCnv(type: "1", value: string): void;
 
 /**

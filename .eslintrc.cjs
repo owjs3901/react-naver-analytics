@@ -9,12 +9,10 @@ module.exports = {
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', "prettier"],
-
+  plugins: ["prettier"],
   rules: {
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
-  },
+    "prettier/prettier": ["error", {
+        "endOfLine": "auto",
+    }],
+  }
 }

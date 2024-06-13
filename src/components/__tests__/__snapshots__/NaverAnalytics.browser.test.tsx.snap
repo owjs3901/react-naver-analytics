@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NaverAnalytics > render script 1`] = `
+<div>
+  <script
+    src="//wcs.naver.net/wcslog.js"
+    type="text/javascript"
+  >
+    
+  </script>
+  <script
+    type="text/javascript"
+  >
+    if(!wcs_add)var wcs_add={};wcs_add["wa"]="mock";if(window.wcs)wcs_do();
+  </script>
+</div>
+`;

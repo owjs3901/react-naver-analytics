@@ -1,4 +1,4 @@
-export { NaverAnalytics } from "./components/NaverAnalytics.tsx";
+export { NaverAnalytics } from "./components/NaverAnalytics";
 export { addCnv } from "./utils/add-cnv";
 export { addEvent } from "./utils/add-event";
 

@@ -8,7 +8,7 @@ export function NaverAnalytics({ accountId }: { accountId: string }) {
       <script src="//wcs.naver.net/wcslog.js" type="text/javascript"></script>
       <script
         dangerouslySetInnerHTML={{
-          __html: `if(!wcs_add) var wcs_add = {};wcs_add["wa"] = "${accountId}";if(window.wcs) {wcs_do();}`,
+          __html: `if(!wcs_add)var wcs_add={};wcs_add["wa"]="${accountId}";if(window.wcs)wcs_do();`,
         }}
         type="text/javascript"
       />
